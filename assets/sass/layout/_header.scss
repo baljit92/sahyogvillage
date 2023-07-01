@@ -1423,9 +1423,13 @@
 
 	.navbar-header .navbar-brand {
 		img {
-			max-width: 250px;
+			    max-width: 305px;
+			    margin-top: 10px;
+			    margin-left: -18px;
 			@media (max-width:1199px) {
-				max-width: 170px;
+				max-width: 205px;
+				margin-left: -6px;
+
 			}
 		}
 	}
