@@ -124,7 +124,7 @@
                     box-shadow: 0px 2px 10px rgba(0, 4, 88, 0.1);
 
                     .icon {
-                        background: $theme-primary-color-gradient-2;
+                        background: linear-gradient(180deg, #50993c 0%, #8cc53f 97.92%);
                     }
                 }
             }
@@ -250,7 +250,7 @@
                     width: 200px;
                     height: 200px;
                     content: "";
-                    background: $theme-primary-color-gradient-2;
+                    background: linear-gradient(180deg, #50993c 0%, #8cc53f 97.92%);
                     z-index: -1;
                     border-radius: 50%;
 
@@ -836,12 +836,12 @@
                         .progress {
 
                             .bar {
-                                background: $theme-primary-color-gradient-2;
+                                background: linear-gradient(180deg, #50993c 0%, #8cc53f 97.92%);
                             }
                         }
 
                         .cssProgress-label {
-                            background: $theme-primary-color-gradient-2;
+                            background: linear-gradient(180deg, #50993c 0%, #8cc53f 97.92%);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
                             background-clip: text;
