@@ -8128,6 +8128,16 @@ img {
   transition: all 0.3s;
   margin-top: -50px;
 }
+
+.volunteer-single .content p {
+  list-style: none;
+  padding-bottom: 45px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  margin-top: -50px;
+}
+
 .volunteer-single .content ul li {
   display: inline-block;
   margin: 0 6px;
