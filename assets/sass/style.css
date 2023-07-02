@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Theme Name:     Charius - Charity Nonprofit HTML5 Template
+Theme Name:     Sahyog Village
 Version:        1.0.0
 -------------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -4574,7 +4574,6 @@ img {
 4. wpo-footer
 --------------------------------------------------------------*/
 .wpo-site-footer {
-  background: url(../images/footer-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -6374,7 +6373,7 @@ img {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: 0.8;
+  opacity: 0.6;
   z-index: -1;
 }
 
