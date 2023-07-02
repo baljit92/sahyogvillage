@@ -633,6 +633,18 @@ img {
   flex-direction: column;
   z-index: 1;
 }
+
+.wpo-page-title-team {
+  background: url(../images/page-team.jpg) no-repeat center top/cover;
+  min-height: 325px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+
 @media (max-width: 767px) {
   .wpo-page-title {
     min-height: 250px;
