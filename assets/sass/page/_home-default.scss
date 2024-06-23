@@ -86,6 +86,27 @@
                     }
                 }
 
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 35px;
+
+                    @media(max-width:1399px) {
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+
+                    @media(max-width:1199px) {
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+
+                    a {
+                        color: $dark-gray;
+                    }
+                }
+
                 p {
                     font-weight: 400;
                     font-size: 18px;
@@ -310,6 +331,22 @@
             }
 
             h2 {
+                text-align: left;
+                font-weight: 700;
+                font-size: 70px;
+                line-height: 95px;
+
+                @media(max-width:1199px) {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 32px;
+                }
+            }
+
+            h1 {
                 text-align: left;
                 font-weight: 700;
                 font-size: 70px;
@@ -1181,6 +1218,32 @@
         }
     }
 
+    h1 {
+        font-family: $heading-font;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 68px;
+        color: $white;
+        margin-top: 20px;
+        margin-bottom: 25px;
+
+        @media (max-width:1199px) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @media (max-width:767px) {
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        @media (max-width:575px) {
+            font-size: 25px;
+            line-height: 32px;
+            margin-top: 10px;
+        }
+    }
+
     .theme-btn-cta {
         color: $white;
         display: inline-block;
@@ -1932,6 +1995,19 @@
             }
 
             h2 {
+                font-family: $heading-font;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 41px;
+                color: $white;
+
+                @media (max-width:991px) {
+                    font-size: 20px;
+                    line-height: 35px;
+                }
+            }
+
+            h1 {
                 font-family: $heading-font;
                 font-weight: 700;
                 font-size: 30px;

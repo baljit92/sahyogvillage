@@ -272,6 +272,29 @@
 				line-height: 47px;
 			}
 		}
+
+		h1 {
+			font-weight: 700;
+			font-size: 70px;
+			line-height: 95px;
+			color: $dark-gray;
+
+			@include media-query(1600px) {
+				font-size: 56px;
+				line-height: 80px;
+			}
+
+
+			@include media-query(1199px) {
+				font-size: 45px;
+				line-height: 65px;
+			}
+
+			@include media-query(575px) {
+				font-size: 36px;
+				line-height: 47px;
+			}
+		}
 	}
 
 	.slide-title-sub {
