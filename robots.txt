@@ -1,6 +1,4 @@
 User-agent: *
 Sitemap: https://sahyogvillage.co.in/sitemap.xml
 Disallow: /cgi-bin/
-Disallow: /assets/
-Disallow: /gallery/
 Disallow: /pages/thankyou.html
