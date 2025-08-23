@@ -4600,7 +4600,6 @@ img {
 4. wpo-footer
 --------------------------------------------------------------*/
 .wpo-site-footer {
-  background: url(../images/footer-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
